@@ -30,6 +30,7 @@
     const option = document.querySelector('.js-option').checked;
     const actors = PRIVATEASER.payActors(bar, time, persons, option);
 
+
     render(actors);
 
     return;
